@@ -1,0 +1,94 @@
+# Frontend Mentor - Age calculator app solution
+
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q).
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [New thing I learned](#new-thing-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+- The Age Calculator is an online tool that computes a person’s age from their date of birth. It verifies that the inputted date is both valid and in the past, and then presents the calculated age in years, months, and days, complete with a counting animation. The tool was developed using HTML for structure, CSS for styling, and JavaScript for functionality. The development process entailed crafting the HTML layout, applying CSS styles, and scripting the JavaScript for form operations, validation, age computation, and animation. A significant challenge I encountered was the validation of the date input, but I managed to resolve it by implementing thorough validation checks in JavaScript. This project served as a valuable opportunity for me to enhance my JavaScript skills and deepen my understanding of form operations and validation.
+
+### The challenge
+
+Users should be able to:
+
+- View an age in years, months, and days after submitting a valid date through the form
+- Receive validation errors if:
+  - Any field is empty when the form is submitted
+  - The day number is not between 1-31
+  - The month number is not between 1-12
+  - The year is in the future
+  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- See the age numbers animate to their final number when the form is submitted
+
+### Screenshot
+
+- check images file for screenshots
+
+### Links
+
+- Solution URL: [Add solution URL here]
+- Live Site URL: [Add live site URL here]
+
+## My process
+
+- HTML Structure: I created a form with three input fields for the day, month, and year. Each form field is contained within its own form element, and all the forms are contained within a div element. I also created a div for displaying the result.
+
+- CSS Styling: I styled the form and the result container using CSS. I defined styles for different states of the form fields, such as when they are focused or when they contain an error.
+
+- JavaScript Logic: I wrote JavaScript code to handle the form submission. This code does the following:
+
+  - Validation: Checks if the input fields are empty, if the day is between 1 and 31, if the month is between 1 and 12, if the date entered is not in the future, and if the date is valid. If any of these checks fail, it displays an error message.
+  - Age Calculation: If all the validations pass, it calculates the age based on the input date and the current date. It then displays this age in the result container.
+
+  - Animation: I added a function to animate the display of the calculated age, making the numbers count up from 0 to their final value.
+
+- Event Listeners: I added event listeners to the form button and the ‘Enter’ key. When the button is clicked or the ‘Enter’ key is pressed, the form is submitted, triggering the validation, age calculation, and animation.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript
+- [Styled Components](https://styled-components.com/) - For styles
+
+### New thing I learned
+
+```js
+created a function then i was able to reuse it over inside another function without having to rewrite same code over and over. Thus, it makes the code clean, neat and easily understandable.
+```
+
+### Continued development
+
+- In the future i would love to make the calculator record each age entered and a clear button to erase the value in input rather than reload website to perform the clear function.
+
+### Useful resources
+
+- BING AI
+
+## Author Profile
+
+- Linkedin - [Hassan Taiwo Ganiyu](www.linkedin.com/in/hassan-taiwo-ganiyu-11b693256)
+- Github - [Ganiyu Hassan Taiwo](https://github.com/PrimeXV)
+- Frontend Mentor - [@PrimeXV](https://www.frontendmentor.io/profile/PrimeXV)
+- Twitter - [@Newleaf67](https://twitter.com/Newleaf67?t=9Gy7yGSnOgir2rRtPnpMuA&s=09)
+
+## Acknowledgments
+
+- Big shout out to Artificial Intelligence, It's really a great companion.

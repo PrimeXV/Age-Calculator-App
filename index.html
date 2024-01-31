@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ageCalculator.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <!-- Parent Container -->
+    <div class="parent-container">
+
+        <!--Age Calculator -->
+        <div class="container">
+
+            <!-- Input Container -->
+            <div class="input-container">
+
+                <!-- Form Container -->
+                <div class="form-container">
+
+                    <!-- Day form -->
+                    <form action="javascript:void(0);" name="day">
+                        <label for="day">Day</label>
+                        <input type="number" class="day" placeholder="DD">
+                        <small></small>
+                    </form>
+                    <!-- Day form -->
+
+                    <!-- Month form -->
+                    <form action="javascript:void(0);" name="month">
+                        <label for="month">Month</label>
+                        <input type="number" class="month" placeholder="MM">
+                        <small></small>
+                    </form>
+                    <!-- Year form-->
+
+                    <!-- Year form -->
+                    <form action="javascript:void(0);"  name="year">
+                        <label for="year">Year</label>
+                        <input type="number" class="year" placeholder="YYYY">
+                        <small></small>
+                    </form>
+                    <!-- Year form -->
+
+                </div>
+                <!-- Form Container -->
+
+                <!--Button Container -->
+                <div class="button-container">
+                    <hr class="hr-line">
+                    <button type="submit" class="btn"><img src="icons/icon-arrow.svg" alt="icon-arrow"></button>
+                </div>
+                <!--Button Container -->
+
+            </div>
+            <!-- Input Container -->
+
+
+
+            <!-- Result Container -->
+            <div class="result-container">
+                <h1><span>--</span>years</h1>
+                <h1><span>--</span>months</h1>
+                <h1><span>--</span>days</h1>
+            </div>
+            <!-- Result Container -->
+
+
+        </div>
+        <!--Age Calculator -->
+
+    </div>
+
+
+    <!--JaVaScript-->
+    <script src="ageCalculator.js"></script>
+    <!--JaVaScript-->
+</body>
+
+</html>
